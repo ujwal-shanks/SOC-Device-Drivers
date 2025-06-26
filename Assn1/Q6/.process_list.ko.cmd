@@ -1,0 +1,1 @@
+cmd_/media/sf_SOC_Device_drivers/Assn1/Q6/process_list.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /media/sf_SOC_Device_drivers/Assn1/Q6/process_list.ko /media/sf_SOC_Device_drivers/Assn1/Q6/process_list.o /media/sf_SOC_Device_drivers/Assn1/Q6/process_list.mod.o;  true

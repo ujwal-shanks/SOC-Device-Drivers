@@ -1,0 +1,1 @@
+cmd_/media/sf_SOC_Device_drivers/Assn1/Q5/hello_world_lkm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /media/sf_SOC_Device_drivers/Assn1/Q5/hello_world_lkm.ko /media/sf_SOC_Device_drivers/Assn1/Q5/hello_world_lkm.o /media/sf_SOC_Device_drivers/Assn1/Q5/hello_world_lkm.mod.o;  true
